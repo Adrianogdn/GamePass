@@ -241,6 +241,14 @@ body {
         width: 50vw;
     }
 
+    .container__titulo1 {
+        color: var(--cor--primaria);
+    }
+
+    .container__botao2 {
+        background-color: var(--cor--primaria);
+    }
+
     .container__caixa {
         margin: 2em 2em;
     }
@@ -248,7 +256,7 @@ body {
     .principal {
         align-items: flex-start;
         text-align: center;
-
+        background-image: none;
 
     }
 
@@ -270,9 +278,13 @@ body {
     }
 
     .secundario__imagem {
-        width: 75vh;
-        padding: 0 4rem 0 4rem;
+        width: 40vh;
+        padding: 0;
 
+    }
+
+    .terciario__imagem {
+        margin: 0;
     }
 
     .dispositivos__lista {
